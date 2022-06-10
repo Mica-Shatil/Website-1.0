@@ -1,0 +1,90 @@
+.myweb__projects {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background: var(--color-bg);
+}
+
+.myweb__projects-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.myweb__projects-heading h1 {
+    font-size: 44px;
+    line-height: 60px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 600px;
+}
+
+.myweb__projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.myweb__projects-container .myweb__project-container__proj {
+    flex: 1;
+    margin: 1rem;
+    min-width: 210px;
+    display: unset;
+    flex-direction: column;
+}
+
+.myweb__projects-container .myweb__project-container_proj-text {
+    margin-top: 0.5rem;
+}
+
+.myweb__projects-image {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myweb__projects-image img {
+    width: 400px;
+    height: 533px;
+}
+
+@media screen and (max-width: 850px) {
+    .myweb__projects-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .myweb__projects-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing role component as per needs */
+    .myweb__projects-proj .myweb__project-container__proj {
+        flex-direction: column;
+    }
+
+    /* Customizing role component as per needs */
+    .myweb__projects-proj .myweb__project-container_proj-text {
+        margin-top: 0.5rem;
+    }
+
+    .myweb__projects-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing role component as per needs */
+    .myweb__projects-container .myweb__project-container__proj {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
