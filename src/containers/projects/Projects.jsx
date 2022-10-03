@@ -24,7 +24,7 @@ const Projects = () => {
       
         <Project name="Spur" year="2021" 
               text="Created the frontend of an app to promote local businesses through QR codes using Flutter and Dart while at a hackathon against the top 200 hackers in North America." 
-              tools="Python-(googletrans)"
+              tools="Flutter, Dart"
               link="https://devpost.com/software/spur-4x6fpv"/>
       </div>
     </div>

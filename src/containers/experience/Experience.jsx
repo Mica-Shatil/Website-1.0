@@ -40,8 +40,8 @@ const Experience = () => {
               tools="Python-(Pandas, Numpy) | Microsoft Excel | Clinic Master | Sage50" image={neuphysio_logo} img_alt="temp" start_date="05.2020"
               end_date="06.2020"/>
         <Role company="United Way" title = "Canada Life Youth United Advisory Council Member" 
-              text="Marketed and awarded several grants of up to $2000 to youth in the Middlesex area. The grants were to fund youth run
-              community initiatives that better the Middlesex population." 
+              text="Marketed and awarded several grants of up to $2000 to youth in the London Middlesex area to fund
+              community initiatives that aid the local population." 
               image={unitedWay_logo} img_alt="temp" start_date="09.2019"
               end_date="05.2020"/>
         <Role company="Junior Achievement" title = "Company VP of Marketing and Sales" 

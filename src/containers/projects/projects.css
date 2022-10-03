@@ -26,6 +26,8 @@
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .myweb__projects-container .myweb__project-container__proj {

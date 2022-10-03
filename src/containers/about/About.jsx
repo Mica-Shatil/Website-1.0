@@ -23,7 +23,7 @@ const About = () => {
       <div className="myweb__about-heading">
         <h2 className="gradient__text">Hobbies</h2>
       </div>
-      <div className="myweb__about-container" style={{ display: "flex", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 65 }}>
+      <div className="myweb__about-container">
         <Feature title="Canoe Tripping" text="I fell in love with canoe tripping while attending a summer camp in my youth. The canoe trip leaders tought
                                               me valuable lessons on working hard, carrying my weight, helping others, and problem solving under high pressure with limited 
                                               resources. I returned to the camp as a canoe trip leader. In this rols, I was able to have a positive impact on the campers,
@@ -38,14 +38,10 @@ const About = () => {
                                         as an actor in the Eng Play of Spring 2022!
                                         " />
       </div>
-      <div className="myweb__about-container" style={{ display: "flex", gridTemplateColumns: "repeat(3, 1fr)", gridGap: 65 }}>
+      <div className="myweb__about-container">
         <div className="myweb__about-image">
           <img src={ canoetrip1 } alt="headshot" />
-        </div>
-        <div className="myweb__about-image">
           <img src={ skiing } alt="headshot" />
-        </div>
-        <div className="myweb__about-image">
           <img src={ play2 } alt="headshot" />
         </div>
       </div>

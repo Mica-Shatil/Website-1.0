@@ -58,7 +58,7 @@
 .myweb__about-feature p {
     font-size: 14px;
     line-height: 20px;
-    font-weight: 800;
+    font-weight: 500;
     font-family: var(--font-family);
     color: #fff;
 }
@@ -87,16 +87,21 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* Customizing feature component as per needs */
 .myweb__about-container .myweb__features-container__feature {
     flex: 1;
-    margin: 1rem;
-    min-width: 210px;
-    display: unset;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
 }
 
 /* Customizing feature component as per needs */
@@ -105,10 +110,12 @@
 }
 
 .myweb__about-image {
-    flex: 1;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
 }
 
 .myweb__about-image img {
