@@ -1,0 +1,161 @@
+.myweb__about {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+    background: var(--color-footer);
+
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(ellipse at 46% 53%, rgba(0, 53, 139, 1) 0%, rgba(5, 21, 40, 1) 100%);
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(ellipse at 46% 53%, rgba(0, 53, 139, 1) 0%, rgba(5, 21, 40, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(ellipse at 46% 53%, rgba(0, 53, 139, 1) 0%, rgba(5, 21, 40, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(ellipse at 46% 53%, rgba(0, 53, 139, 1) 0%, rgba(5, 21, 40, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(ellipse at 46% 53%, rgba(0, 53, 139, 1) 0%, rgba(5, 21, 40, 1) 100%);
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.myweb__about-feature {
+    display: flex;
+}
+
+/* Customizing feature component as per needs */
+.myweb__about-feature .myweb__features-container__feature {
+    margin: 0;
+}
+
+/* Customizing feature component as per needs */
+.myweb__about-feature .myweb__features-container_feature-text {
+    max-width: 700px;
+}
+
+.myweb__about-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    
+    margin: 0rem 0 2rem;
+}
+
+.myweb__about-heading h1 {
+    font-size: 44px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+}
+
+.myweb__about-feature p {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: var(--font-family);
+    color: #fff;
+}
+
+.myweb__about-heading h2 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 800;
+    font-family: var(--font-family);
+    max-width: 510px;
+
+    margin-top: 1rem;
+}
+
+
+.myweb__about-heading p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--color-subtext);
+    cursor: pointer;
+}
+
+.myweb__about-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Customizing feature component as per needs */
+.myweb__about-container .myweb__features-container__feature {
+    flex: 1;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Customizing feature component as per needs */
+.myweb__about-container .myweb__features-container_feature-text {
+    margin-top: 0.5rem;
+}
+
+.myweb__about-image {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.myweb__about-image img {
+    width: 400px;
+    height: 533px;
+}
+
+@media screen and (max-width: 850px) {
+    .myweb__about-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0rem;
+    }
+
+    .myweb__about-heading p {
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    /* Customizing feature component as per needs */
+    .myweb__about-feature .myweb__features-container__feature {
+        flex-direction: column;
+    }
+
+    /* Customizing feature component as per needs */
+    .myweb__about-feature .myweb__features-container_feature-text {
+        margin-top: 0.5rem;
+    }
+
+    .myweb__about-heading h1 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    /* Customizing feature component as per needs */
+    .myweb__about-container .myweb__features-container__feature {
+        margin: 1rem 0;
+        min-width: 100%;
+    }
+}
