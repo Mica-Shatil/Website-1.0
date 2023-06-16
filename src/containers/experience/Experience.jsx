@@ -16,7 +16,7 @@ const Experience = () => {
         <h1 className="gradient__text">Experience</h1>
       </div>
       <div className="myweb__experience-container">
-        <Role company="LEVEL (Cardon Rehab)" title = "Beta Testing Coordinator" 
+        <Role company="LEVEL (Cardon Rehab)" title = "Project Manager - Beta Testing" 
               text="Planned, organized, and implemented the beta testing of LEVEL's medical sensors. Communicated with key stakeholders
                 to ensure alignment between customer expectations and product function and design." 
               tools="Figma | SQL | Python-(Pandas)"

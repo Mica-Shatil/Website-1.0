@@ -10,7 +10,7 @@ const Contact = () => {
                   <p> LinkedIn </p>
                 </a>
                 <a href='mailto:micashatil@gmail.com'>
-                  <p> Email </p>
+                  <p> Email - micashatil@gmail.com </p>
                 </a>
                 <a href='https://github.com/Mica-Shatil'>
                   <p> Github </p>
