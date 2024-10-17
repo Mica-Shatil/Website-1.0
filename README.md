@@ -1,5 +1,3 @@
-NOTE: This website was built with inspiration from https://www.youtube.com/watch?v=LMagNcngvcU&list=WL&index=3
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

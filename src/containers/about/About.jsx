@@ -2,8 +2,8 @@ import React from 'react'
 import './about.css'
 import Feature from '../../components/feature/Feature';
 import skiing from '../../assets/skiing.jpg'
-import play2 from '../../assets/play2.PNG'
-import canoetrip1 from '../../assets/canoe1.JPG'
+import play2 from '../../assets/play3.jpg'
+import canoetrip1 from '../../assets/canoe1.jpg'
 
 const About = () => {
   return (
@@ -26,8 +26,8 @@ const About = () => {
       <div className="myweb__about-container">
         <Feature title="Canoe Tripping" text="I fell in love with canoe tripping while attending a summer camp in my youth. The canoe trip leaders tought
                                               me valuable lessons on working hard, carrying my weight, helping others, and problem solving under high pressure with limited 
-                                              resources. I returned to the camp as a canoe trip leader. In this rols, I was able to have a positive impact on the campers,
-                                              wile also discovering much about myself and how to work under pressure when people are depending on you." />
+                                              resources. I returned to the camp as a canoe trip leader. In this role, I was able to have a positive impact on the campers,
+                                              while also discovering much about myself and how to work under pressure when people are depending on you." />
         <Feature title="Skiing" text="Another one of my hobbies is skiing. If you can't tell by now, I love the outdoors! Skiing as another way I get to see the natural wonders
                                       of the world. The sport of skiing is loads of fun, but my favourite part is to just get away from the bussy city,
                                       and take in the views you get fom the top of the slopes. There's nothing quite like getting above the clouds at the top of a 

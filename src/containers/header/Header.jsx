@@ -7,7 +7,7 @@ const Header = () => {
     <div className="myweb__header section__padding" id="home">
       <div className="myweb__header-content">
         <h1 className="gradient__text">Hello, my name is Mica Shatil!</h1>
-        <p>I am a student at the University of Waterloo with experience in project management, data science, consulting, and sales.</p>
+        <p>I am a student at the University of Waterloo with experience in data science, machine learning engineering, project management, consulting, and sales.</p>
       </div>
       <div className="myweb__header-image">
         <img src={ headshot } alt="headshot" />
