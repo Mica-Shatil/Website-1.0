@@ -83,7 +83,41 @@
 .myweb__navbar-menu_container-links-sign {
     display: none;
 }
+.myweb__navbar-links_container p a, 
+.myweb__navbar-menu_container-links p a {
+   color: #fff;
+   text-decoration: none;
+   position: relative;
+   transition: color 0.3s ease;
+}
 
+.myweb__navbar-links_container p a::after,
+.myweb__navbar-menu_container-links p a::after {
+   content: '';
+   position: absolute;
+   width: 0;
+   height: 2px;
+   bottom: -4px;
+   left: 0;
+   background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+   transition: width 0.3s ease;
+}
+
+.myweb__navbar-links_container p a:hover::after,
+.myweb__navbar-menu_container-links p a:hover::after {
+   width: 100%;
+}
+
+.myweb__navbar-links_container p a:hover,
+.myweb__navbar-menu_container-links p a:hover {
+   color: #AE67FA;
+}
+
+.myweb__navbar-menu_container {
+   background: rgba(17, 17, 17, 0.95);
+   backdrop-filter: blur(4px);
+   transition: all 0.3s ease;
+}
 @media screen and (max-width: 1050px) {
     .myweb__navbar-links_container {
         display: none;

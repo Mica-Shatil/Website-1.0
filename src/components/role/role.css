@@ -1,6 +1,6 @@
 .myweb__role-container__role {
     padding: 18px 18px;
-    width: 48%;
+
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -10,6 +10,7 @@
 .myweb__role-img {
     width: 50px;
     height: 50px;
+    object-fit: contain;
 }
 
 .myweb__role-content {
@@ -45,6 +46,7 @@
 
 .myweb__role-title {
     font-size: 25px;
+    margin: 5px 0px;
 }
 
 .myweb__role-tools {
@@ -55,5 +57,13 @@
 @media only screen and (max-width: 800px) {
     .workCard{
         width: 100%;
+    }
+   
+}
+
+@media only screen and (max-width: 600px) {
+ 
+    .myweb__role-container__role {
+        padding: 0px 0px;  
     }
 }

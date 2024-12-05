@@ -5,6 +5,7 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
+    padding: 10px;
 }
 
 .myweb__features-container__feature-title h1 {
@@ -13,6 +14,16 @@
     font-size: 18px;
     line-height: 24px;
     color: #fff;
+}
+.feature-img-c{
+    padding: 10px;
+width: 100%;
+}
+.feature-img-c img{
+    width: 100%;
+    object-fit: contain;
+    height: 400px;
+
 }
 
 .myweb__features-container__feature-title div {

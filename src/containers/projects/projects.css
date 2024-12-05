@@ -76,6 +76,7 @@
     height: 533px;
 }
 
+
 @media screen and (max-width: 850px) {
     .myweb__projects-heading {
         flex-direction: column;

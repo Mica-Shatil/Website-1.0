@@ -45,4 +45,9 @@
     .myweb__contact-heading p {
         margin-top: 1rem;
     }
+    .myweb__contact-channel a p {
+      
+        font-size: 16px;
+   
+    }
 }
